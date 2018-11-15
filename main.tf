@@ -1,7 +1,7 @@
 provider "aws" {
   region = "${var.AWS_REGION}"
-  access_key = "AKIAIIRDKPB5TOCBOA2A"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 data "aws_ami" "elk" {
